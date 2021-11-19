@@ -1,0 +1,13 @@
+.photosGrid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,322px);
+    gap:40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 560px) {
+    .photosGrid{
+        grid-template-columns: 100% !important;
+    }
+}
